@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Madhur's portfolio</title>
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anta&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="portfolio.css">
+    </head>
+    <body >
+        <nav>
+            <ul>
+                <li><a href="#aboutme">ABOUT ME</a></li>
+                <li><a href="#projects">CERTIFICATIONS</a></li>
+                <li><a href="#contactme">CONTACT ME</a></li>
+            </ul>
+        </nav>
+        <section class="first">
+            <div class="container">
+                <img src="photo1.jpg">
+                <h1>Hi! I'm Madhur! 
+                    An aspiring engineer delving into web development, 
+                    AI, ML, and the enigmatic world of quantum computing, 
+                    driven by a passion for innovation and a thirst for knowledge 
+                    at the cutting edge of technology.</h1>
+
+            </div>
+        </section>
+
+        <section id="aboutme" class="aboutme">
+            <h2>ABOUT ME</h2>
+            <div class="abtme-section">
+                <div class="img">
+                    <div class="abtme-img"></div>
+                </div>
+                <div class="abtme-text">
+                    <p>As a second-year Computer Science and Engineering student at VIT,
+                         I'm fervently pursuing a dynamic internship to bridge theory with practice. 
+                         With a passion for innovation and a drive to explore emerging technologies, 
+                         I'm particularly drawn to web development, AI, ML, and quantum computing. 
+                         I aim to craft seamless digital experiences, leverage algorithms for insightful 
+                         solutions, and delve into the transformative potential of quantum computing. 
+                         Seeking hands-on experiences, I aspire to enhance my programming skills and 
+                         contribute to collaborative projects. Eager to make meaningful contributions, 
+                         I am committed to adapting and thriving in a dynamic professional environment. 
+                         With a solid foundation in computer science principles and a relentless pursuit
+                          of excellence, I am poised to add value to your team and contribute to cutting-edge
+                           projects that shape the future of technology.</p>
+                        <p>Technical Skills:<br>
+                        •	Python <br>
+                        •	Java programming (OOPS)<br>
+                        •	AI and ML<br>
+                        •	HTML,CSS,JS and ReactJs<br>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="projects" >
+            <h2>CERTIFICATIONS</h2>
+            <div class="projects">
+                
+                <div class="projects">
+                    <div class="earth-proj">
+                        <div class="text">
+                            <h3 class="proj-name">Supervised Machine Learning: Regression and Classification</h3>
+                            <div class="content">
+                                <p>Build machine learning models in Python using popular machine learning libraries NumPy & scikit-learn</p>
+                            </div>
+                            <button class="button" onclick="cert1()" >View certification</button>
+                        </div>
+                    </div>
+                    <div class="bbc-proj">
+                        <div class="text">
+                            <h3 class="proj-name">100 Days of Code: The Complete Python Pro Bootcamp</h3>
+                            <div class="content">
+                                <p>Be able to build fully fledged websites and web apps with Python,Build games like Blackjack, Pong and Snake using Python</p>
+                            </div>
+                            <button class="button" onclick="cert2()" >View certification</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="projects">
+                
+                <div class="projects">
+                    <div class="hacker-proj">
+                        <div class="text">
+                            <h3 class="proj-name">Java (Basic)</h3>
+                            <div class="content">
+                                <p>
+                                    It will cover basic topics in Java language such as classes, data structures, inheritance, exception handling, etc. You are expected to be proficient in either Java 7 or Java 8.</p>
+                            </div>
+                            <button class="button" onclick="cert3()" >View certification</button>
+                        </div>
+                    </div>
+                    <div class="corsera-proj">
+                        <div class="text">
+                            <h3 class="proj-name">Core Java</h3>
+                            <div class="content">
+                                <p> In the four courses of this specialization, I
+                                    mastered the Java programming language and the packages that
+                                    constitute its rich set of core libraries. Through many hands-on
+                                    exercises, I developed own Java-based applications using
+                                    beginner to advanced Java functions.
+                                    </p>
+                            </div>
+                            <button class="button" onclick="cert4()" >View certification</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contactme" class="contact">
+            <h2>CONTACT ME</h2>
+            <p>Use this form to get in touch. I would love to hear your feedback!</p>
+            <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                <div class="contact-detail">
+                    <input type="hidden" name="access_key" value="0ed6339f-fd5f-4204-8d00-585d1a90d5b1">
+                    <label for="yourname">Name</label>
+                    <input type="text" id="yourname" name="yourname" placeholder="Your Name" required>
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Reason for your message" required>
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+                </div>
+        
+                <div class="message">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </section>
+        
+        <footer>
+            <div class="container">
+                <div class="copyright">
+                    This site &copy; 2024 Madhur Pophale
+                </div>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/madhur-pophale" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/madhurpophale?igsh=MWN2djMzZDl6c3Z2eQ==" target="_blank"><i class="fa fa-instagram"></i></a>
+            </div>
+            </div>
+        </footer>
+        <script src="portfolio.js"></script>
+    </body>
+</html>
